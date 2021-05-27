@@ -192,15 +192,17 @@ hr.light-100 {
 
 /* Image Hover Animation */
 
+.imghover {
+	background: #000;
+}
+
 .imghover img {
-	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
-	-webkit-transition: .1s ease-in-out;
-	transition: .1s ease-in-out;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .imghover:hover img {
-	-webkit-filter: grayscale(40%) blur(2px);
-	filter: grayscale(40%) blur(2px);
+	opacity: .5;
 }
 
 /*---Media Queries --*/
