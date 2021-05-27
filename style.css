@@ -137,6 +137,19 @@ html, body {
 	padding: 1rem;
 }
 
+h4 a {
+	color:#222;
+}
+
+h4 a:hover {
+	color:#222;
+	text-decoration: underline;
+}
+
+h4 a:visited {
+	color:#222;
+}
+
 footer {
 	background-color:#111;
 	color:#d5d5d5;
