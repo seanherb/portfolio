@@ -190,6 +190,19 @@ hr.light-100 {
 	background:#111;
 }
 
+/* Image Hover Animation */
+
+.imghover img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+.imghover:hover img {
+	-webkit-filter: grayscale(40%) blur(2px);
+	filter: grayscale(40%) blur(2px);
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 		
@@ -317,11 +330,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
